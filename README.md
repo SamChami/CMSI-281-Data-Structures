@@ -6,10 +6,10 @@
 
 
 #### Yarn
-Data structure simulating the use of an array of an Entry class to track String inputs as well as the number of occurrences of each string.
+Data structure simulating the use of an array of an Entry class to track String inputs as well as the number of occurrences of each string.  
 
 #### Linked Yarn
-Data structure simulating using a doubly linked list. Linked Yarn is a linked list of Strands that stores a String of text as well as the number of times that string was added to the yarn.
+Data structure simulating using a doubly linked list. Linked Yarn is a linked list of Strands that stores a String of text as well as the number of times that string was added to the yarn.  
 
 #### Web Navigator
 Mock webpage navigator that simulates a user visiting a page navigating back and forward through their web history.  
