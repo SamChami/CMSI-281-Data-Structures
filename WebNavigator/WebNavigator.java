@@ -61,16 +61,16 @@ public class WebNavigator {
     public void back () {
     	if(backwardHistory.size() > 1) {
 	    	forwardHistory.addFirst(current);
-	        current = backwardHistory.getLast();
-	        backwardHistory.removeLast();
+	      current = backwardHistory.getLast();
+	      backwardHistory.removeLast();
     	}
     }
 
     public void forw () {
     	if (forwardHistory.size() > 0) {
-			backwardHistory.add(current);
-		    current = forwardHistory.getFirst();
-		    forwardHistory.removeFirst();
+        backwardHistory.add(current);
+        current = forwardHistory.getFirst();
+        forwardHistory.removeFirst();
     	}
     }
 
