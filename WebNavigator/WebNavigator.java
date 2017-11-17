@@ -80,7 +80,5 @@ public class WebNavigator {
 
         System.out.println("Welcome to ForneyFox, enter a command from your ForneyFox user manual!");
         while (navi.getNextUserCommand(input)) {}
-        System.out.println("Goodbye!");
         }
-
     }
